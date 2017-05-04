@@ -24,7 +24,7 @@ Add another scheduled task called "restartoctoprint"
 
     program/script: c:\path\to\restart.bat
 
-The reason there's a separate task to restart, and you can't just call the restart.bat file straight from octoprint is that when the octoprint scheduled task ends, it also prematurely kills the restart batch file.
+The reason there's a separate task to restart, and you can't just call the restart.bat file straight from octoprint is that when the octoprint scheduled task ends, it also prematurely kills the restart batch file before it's had a chance to start the octoprint task back up agian.
 
 Finally, open the settings of octoprint and in the "server" section enter this:
 
