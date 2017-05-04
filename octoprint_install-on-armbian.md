@@ -75,3 +75,5 @@ Add user to the video group to access the /dev/video device
 
 Start mjpeg streamer
 `./mjpg_streamer -i "./input_uvc.so" -o "./output_http.so"`
+
+There are extra instructions here: https://github.com/ntoff/mjpeg-streamer-octoprint-daemon to install mjpeg streamer as a daemon. They were intended for raspbian but will also work on Armbian (or possibly anywhere else), just make sure the path and user name match your configuration.
