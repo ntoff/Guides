@@ -3,9 +3,9 @@ OctoPi
 
 The easiest way to get started using OctoPrint is by downloading the precompiled image from [http://octoprint.org/download/](http://octoprint.org/download/), designed for use an a Raspberry Pi. 
 
-**Install**
+# Install
 
-The image is written to an SD card in the same way you would write any other Raspberry Pi image to an SD card (See [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) for details.
+The image is written to an SD card in the same way you would write any other Raspberry Pi image to an SD card (See [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) for details. The OctoPi image comes with everything you need, preinstalled and preconfigured. 
 
 *Please note, the first boot will take longer than usual while the partition is expanded to fill the entire SD card and may automatically reboot. Please do not interrupt this process.*
 
