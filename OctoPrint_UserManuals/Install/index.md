@@ -3,4 +3,4 @@
 ![](../images/octoprint-logo.png)
 
 * [OctoPi](install_octopi.md)
-* [Manual Install](install_manual.md)
+* [Armbian](install_armbian.md)
