@@ -4,7 +4,7 @@ Assuming you have followed the instructions [HERE](https://github.com/foosel/Oct
 and enjoy the ability to restart octoprint easily via the system menu, and don't want to fiddle with pesky exe to service wrappers, have I got a deal for you!
 
 
-Create a batch file with this as the contents and save it somewhere (I put it in the venv directory along with `activate.bat`):
+Create a batch file with this as the contents and save it as `restart.bat` somewhere (I put it in the venv directory along with `activate.bat`):
 
     schtasks /end /tn octoprint 
     timeout /t 5
@@ -20,7 +20,7 @@ Start up task scheduler and add octoprint as a new scheduled task, call it "octo
     additional arguments: serve
     start in: c:\path\to_where_octoprint_exe_resides
 
-Add another scheduled task called "restartoctoprint"
+Add another scheduled task called "restartoctoprint" and point it to the batch file you created earlier.
 
     program/script: c:\path\to\restart.bat
 
