@@ -17,6 +17,8 @@ If not, substitute your own username where the "pi" user is present.__
     ./venv/bin/python setup.py install
     mkdir ~/.octoprint
 
+*Note: `--depth 1` may leave git unable to check out other branches apart from "master", if this ends up being the case, SSH in and run `git remote set-branches origin '*'` in the OctoPrint directory where the code was cloned into, then `git fetch`*
+
 ### Enable serial port access to the pi user and passwordless shutdown
 
     sudo usermod -a -G tty pi
